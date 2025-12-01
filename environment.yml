@@ -1,0 +1,25 @@
+name: molex
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.2.1
+  - torchaudio=2.2.1
+  - torchvision=0.17.1
+  - pytorch-cuda=11.8
+  - cudatoolkit=11.8
+  - numpy
+  - pandas
+  - scipy
+  - numba
+  - tqdm
+  - soundfile
+  - librosa
+  - scikit-learn
+  - pip
+  - pip:
+      - einops
+      - webrtcvad
